@@ -14,13 +14,16 @@ This project implements a **Vision Transformer (ViT) from scratch in PyTorch** t
 
 | File | Description |
 | --- | --- |
-| [CSE620_ViT_Project_Demo_Checkpoint_Fixed_Run.ipynb](CSE620_ViT_Project_Demo_Checkpoint_Fixed_Run.ipynb) | Executed notebook with ViT implementation, evaluation results, and live demo |
+| [CSE620_ViT_Project_Demo_Checkpoint_Fixed.ipynb](CSE620_ViT_Project_Demo_Checkpoint_Fixed.ipynb) | Executed notebook with ViT implementation, evaluation results, and live demo |
 | [CSE620_ViT_Three_Slide_Presentation.pptx](CSE620_ViT_Three_Slide_Presentation.pptx) | Three-slide presentation: problem, solution, and results |
+| [vit_cifar10.pt](vit_cifar10.pt) | Trained model checkpoint for inference without retraining |
+| [data/cifar-10-batches-py/](data/cifar-10-batches-py/) | CIFAR-10 Python batches: five training batches, test batch, label metadata, and dataset readme |
+| [__results___files/](__results___files/) | Saved result images |
 | [README.md](README.md) | Project overview and setup instructions |
 
 **Open in Google Colab:** [CSE620 ViT project notebook](https://colab.research.google.com/drive/1RFp8RPebZpGcDAEZ4wfcmLO9p_Lmfq3G)
 
-> **Model checkpoint:** The trained checkpoint `vit_cifar10.pt` is required for immediate inference and is **not included in this repository**. Obtain the checkpoint from the presenters and make it available at the path configured in the notebook. The notebook's Colab version may use a Google Drive checkpoint path; verify or update that path before running.
+> **Model checkpoint:** The trained checkpoint [`vit_cifar10.pt`](vit_cifar10.pt) is included in this repository and is required for immediate inference. Make it available at the path configured in the notebook. The notebook's Colab version may use a Google Drive checkpoint path; verify or update that path before running.
 
 ## Problem and data
 
